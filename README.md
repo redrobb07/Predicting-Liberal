@@ -1,6 +1,29 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 3: Web APIs & NLP
 
-### Description
+
+### Problem Statement
+
+In the current politically polarized state of our nation, it is getting .. As more and more people move to social media and other forms of online communication, (something here about how the ways in which we communiate online is driving deeper political divides. This is essentially your first report..) it is getting more difficult to 
+
+In this project I set out to determine if it is possible to determine whether a reddit poster was a Liberal or Conservative from the language used in the title of the post or in what is called the selftext.  
+
+### Data Description
+
+I located two different subreddits: 1 that was titled "Liberal" and anither that was titled "Conservative".  Using [Pushshift's](https://github.com/pushshift/api) API, I then scrapped 2,000 posts from each subreddit, totaling 4,000 combined.  
+
+### Project Description
+
+
+
+### Process
+
+After creating the Dataframe that contained all 4000 posts, I set out to explore what kinds of posts I had. 
+
+The first model I attempted to create was a Count vectorizer (Explain what a count vectorizer is)
+
+The second model I attempted to create was a (TFIDF) (explain the difference between the two vectorizers
+
+After using the vectorizers I wanted to try out different classification models to see if I could better cross-val scores than if I just 
 
 In week four we've learned about a few different classifiers. In week five we'll learn about webscraping, APIs, and Natural Language Processing (NLP). This project will put those skills to the test.
 
